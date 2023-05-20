@@ -11,7 +11,11 @@ import EditTask from "./components/EditTask";
 import todolist from "./images/todolist.jpg";
 
 const initialList = [
-    {id: uuidv4(), name: 'Learn React', done: false, trash: false},
+    {id: uuidv4(), name: 'Arial Font Family : Download Free for Desktop & Webfont', done: false, trash: false},
+    {id: uuidv4(), name: 'Build completed Uploading build cache', done: false, trash: false},
+    {id: uuidv4(), name: 'FE- Hook a new user into a grid for validation', done: false, trash: false},
+    {id: uuidv4(), name: 'Show/Hide based on Program/Treaty/LOB', done: true, trash: true},
+    {id: uuidv4(), name: 'BE-Coverage Tab-Bound Policy', done: true, trash: true},
 ]
 
 function App() {
